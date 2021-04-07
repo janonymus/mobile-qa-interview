@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Viesure Regression test" thread-count="2" parallel="tests">
+
+
+    <test name="Regression on pixel">
+        <parameter name="device" value="pixel"/>
+        <classes>
+            <class name="org.viesure.testRunner.RegressionTestRunner" />
+        </classes>
+    </test>
+
+    <test name="Regression on nexus">
+        <parameter name="device" value="nexus"/>
+        <classes>
+            <class name="org.viesure.testRunner.RegressionTestRunner" />
+        </classes>
+    </test>
+
+</suite>

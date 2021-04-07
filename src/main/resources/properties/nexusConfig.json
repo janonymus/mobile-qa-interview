@@ -1,0 +1,22 @@
+{
+   "capabilities":[
+      {
+         "deviceName":"Nexus S API 24",
+         "udid":"emulator-5556",
+         "platform":"Android"
+      }
+   ],
+   "configuration":{
+      "cleanUpCycle":3000,
+      "timeout":30000,
+      "proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+      "url":"http://10.0.4.103:4444/wd/hub",
+      "host":"192.168.31.106",
+      "port":4728,
+      "maxSession":1,
+      "register":true,
+      "registerCycle":5000,
+      "hubPort":4444,
+      "hubHost":"10.0.4.103"
+   }
+}
